@@ -1,0 +1,47 @@
+body {
+    background-color: #e8e9eb;
+    font-family: 'Karla', sans-serif;
+    color: #313638;
+}
+
+h1 {
+    font-family: 'Staatliches', cursive; 
+}
+
+i {
+    font-size: 3rem;
+}
+
+a i {
+    color: #313638;
+}
+
+a i:hover {
+    color: #73877B;
+}
+.nav a {
+    font-size: 1.35rem;
+}
+
+.navbar-custom {
+    color: #313638;
+    font-family: 'Staatliches', cursive; 
+}
+
+.navbar-custom:hover {
+    color: white; 
+}
+
+.project {
+    background-color: #BDBBB6;
+}
+
+.navbar.scrolled {
+    /* background: #73877B; */
+    background: #ACBDBA;
+    transition: background 500ms;
+}
+
+.carousel-inner {
+    box-shadow: 10px 10px 10px grey;
+}
