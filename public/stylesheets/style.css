@@ -1,10 +1,11 @@
 body {
-    background-color: #e8e9eb;
+    background: rgb(172,189,186);
+    background: linear-gradient(141deg, rgba(172,189,186,1) 0%, rgba(232,233,235,1) 79%);
     font-family: 'Karla', sans-serif;
     color: #313638;
 }
 
-h1 {
+h1, h3 {
     font-family: 'Staatliches', cursive; 
 }
 
@@ -44,4 +45,13 @@ a i:hover {
 
 .carousel-inner {
     box-shadow: 10px 10px 10px grey;
+}
+
+.blog-link {
+    color: #313638;
+    font-size: 1.2rem;
+}
+
+.blog-link:hover {
+    color: white;
 }
