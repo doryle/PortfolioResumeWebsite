@@ -2,12 +2,7 @@ const   express     = require("express"),
         app         = express(),
         mongoose    = require("mongoose");
         bodyParser  = require("body-parser"),
-        passport    = require("passport"),
         cookieParser = require("cookie-parser"),
-        LocalStrategy = require("passport-local"),
-        flash        = require("connect-flash"),
-        // Comment     = mongoose.model(Comment, commentSchema),
-        // User        = require("./models/user"),
         session = require("express-session"),
         methodOverride = require("method-override");
 
