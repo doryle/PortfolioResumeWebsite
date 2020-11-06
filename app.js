@@ -10,7 +10,9 @@ const   express     = require("express"),
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({extended: true}));
-mongoose.connect('mongodb://localhost/blogdb', {useNewUrlParser: true, useUnifiedTopology: true});
+// mongoose.connect('mongodb://localhost/blogdb', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://mainuser:biden2020@cluster0.t1w2r.mongodb.net/<dbname>?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
+
 
 //Schema Setup
 var commentSchema = new mongoose.Schema({
